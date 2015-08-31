@@ -1,0 +1,32 @@
+{
+  "name": "rendr-api-proxy-optionable",
+  "version": "0.0.1",
+  "description": "API Proxy for rendr that supports options for header pass through",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"test/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/crwang/rendr-api-proxy-optionable.git"
+  },
+  "keywords": [
+    "rendr",
+    "api",
+    "proxy"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "node-mocks-http": "^1.4.3",
+    "mocha": "^2.2.5",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
+  },
+  "peerDependencies": {
+    "rendr": ">=1.1.0"
+  },
+  "author": "Chris Wang <code@chris.wang> (chris.wang)",
+  "license": "MIT"
+}

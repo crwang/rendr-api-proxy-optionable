@@ -1,0 +1,8 @@
+node_modules
+tmp
+npm-debug.log
+coverage
+*.sw?
+.DS_Store
+runtime.json
+*.tgz
