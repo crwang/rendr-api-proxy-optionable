@@ -1,5 +1,5 @@
-var _ = require('underscore');
-rendrApiProxy = require('rendr/server/middleware/apiProxy');
+var _ = require('underscore'),
+    rendrApiProxy = require('rendr/server/middleware/apiProxy');
 
 /**
  * Middleware handler for intercepting API routes.
